@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  background-color: white;
+}
+body {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  width: 100%;
+}
+#content {
+  display: flex;
+  align-items: center;
+  height: auto;
+  background-color: black;
+}
+
+header {
+  text-align: start;
+
+  color: black;
+  width: 100%;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  background-color: black;
+  width: 200px;
+  padding-bottom: 5px;
+}
+.operators {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+button {
+  width: 45px;
+  height: 50px;
+  margin: 1px;
+  border: none;
+  color: white;
+  background-color: #333232;
+  font-size: medium;
+  border-radius: 7px;
+}
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+article {
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+.topButton {
+  background-color: #8f8f94;
+}
+.sideButton {
+  background-color: #ff9401;
+}
+#display {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  width: auto;
+
+  text-align: right;
+
+  width: 90%;
+  font-size: large;
+  position: relative;
+  padding-top: 70px;
+}
+h2 {
+  background-color: black;
+  font-size: x-large;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+span {
+  background-color: black;
+  font-size: small;
+}
